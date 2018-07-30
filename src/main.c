@@ -1,6 +1,6 @@
 #include <os.h>
 
-OS_SEM(sem, false);
+OS_SEM(sem, 0);
 
 OS_TSK_DEF(sla)
 {
