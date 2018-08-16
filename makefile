@@ -11,7 +11,7 @@ COSTM8     := c:/sys/cosmic/cxstm8/
 #----------------------------------------------------------#
 
 PROJECT    ?= $(notdir $(CURDIR))
-DEFS       ?=
+DEFS       ?= __NO_DEFAULT
 DIRS       ?=
 INCS       ?=
 LIBS       ?=
