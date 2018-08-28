@@ -1,7 +1,7 @@
 #**********************************************************#
 #file     makefile
 #author   Rajmund Szymanski
-#date     10.01.2018
+#date     28.08.2018
 #brief    ST7 makefile.
 #**********************************************************#
 
@@ -11,7 +11,7 @@ COSTM8     := c:/sys/cosmic/cxstm8/
 #----------------------------------------------------------#
 
 PROJECT    ?= $(notdir $(CURDIR))
-DEFS       ?= __NO_DEFAULT
+DEFS       ?=
 DIRS       ?=
 INCS       ?=
 LIBS       ?=
