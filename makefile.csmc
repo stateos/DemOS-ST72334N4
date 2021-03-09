@@ -1,0 +1,19 @@
+PROJECT := test
+DEFS    :=
+INCS    :=
+SRCS    := src/main.c
+LIBS    :=
+SCRIPT  :=
+COMMON  := common
+
+#----------------------------------------------------------#
+include $(COMMON)/demos/make/st7custom/makefile.csmc
+#----------------------------------------------------------#
+
+include $(COMMON)/startup/makefile
+include $(COMMON)/api/makefile
+include $(COMMON)/demos/makefile
+
+#----------------------------------------------------------#
+include $(COMMON)/make/makefile
+#----------------------------------------------------------#

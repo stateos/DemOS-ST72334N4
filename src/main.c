@@ -2,7 +2,7 @@
 
 OS_SEM(sem, 0);
 
-OS_TSK_DEF(sla)
+OS_TSK_DEF(cons)
 {
 	tsk_begin();
 
@@ -12,7 +12,7 @@ OS_TSK_DEF(sla)
 	tsk_end();
 }
 
-OS_TSK_DEF(mas)
+OS_TSK_DEF(prod)
 {
 	tsk_begin();
 
@@ -25,7 +25,7 @@ OS_TSK_DEF(mas)
 void main()
 {
 //	led_init();
-	tsk_start(sla);
-	tsk_start(mas);
+	tsk_start(cons);
+	tsk_start(prod);
 	sys_start();
 }
