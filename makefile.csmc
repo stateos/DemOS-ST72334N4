@@ -1,4 +1,5 @@
 PROJECT := test
+CSMCC   :=
 DEFS    :=
 INCS    :=
 SRCS    := src/main.c
