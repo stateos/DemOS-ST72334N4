@@ -10,10 +10,8 @@ COMMON  := common
 #----------------------------------------------------------#
 include $(COMMON)/demos/make/st7custom/makefile.csmc
 #----------------------------------------------------------#
-
 include $(COMMON)/api/makefile
 include $(COMMON)/startup/makefile
-
 #----------------------------------------------------------#
 include $(COMMON)/make/makefile
 #----------------------------------------------------------#
